@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C2047732671385A00CF4639 /* LogoMakr-5DG6BK.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C2047722671385A00CF4639 /* LogoMakr-5DG6BK.png */; };
+		5CF7EFC42671264B002FF7C7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CF7EFC32671264B002FF7C7 /* Cocoa.framework */; };
+		5CF7EFCE2671264B002FF7C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CF7EFCC2671264B002FF7C7 /* InfoPlist.strings */; };
+		5CF7EFD02671264B002FF7C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7EFCF2671264B002FF7C7 /* main.m */; };
+		5CF7EFD72671264B002FF7C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7EFD62671264B002FF7C7 /* AppDelegate.m */; };
+		5CF7EFDA2671264C002FF7C7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CF7EFD82671264C002FF7C7 /* MainMenu.xib */; };
+		5CF7EFE126712660002FF7C7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CF7EFE026712660002FF7C7 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C2047722671385A00CF4639 /* LogoMakr-5DG6BK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LogoMakr-5DG6BK.png"; sourceTree = "<group>"; };
+		5CF7EFBF2671264B002FF7C7 /* lionMatrix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lionMatrix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF7EFC32671264B002FF7C7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5CF7EFC62671264B002FF7C7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5CF7EFC72671264B002FF7C7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5CF7EFC82671264B002FF7C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5CF7EFCB2671264B002FF7C7 /* lionMatrix-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lionMatrix-Info.plist"; sourceTree = "<group>"; };
+		5CF7EFCD2671264B002FF7C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CF7EFCF2671264B002FF7C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CF7EFD12671264B002FF7C7 /* lionMatrix-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lionMatrix-Prefix.pch"; sourceTree = "<group>"; };
+		5CF7EFD52671264B002FF7C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CF7EFD62671264B002FF7C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5CF7EFD92671264C002FF7C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5CF7EFE026712660002FF7C7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CF7EFBC2671264B002FF7C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF7EFE126712660002FF7C7 /* WebKit.framework in Frameworks */,
+				5CF7EFC42671264B002FF7C7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CF7EFB42671264B002FF7C7 = {
+			isa = PBXGroup;
+			children = (
+				5C2047722671385A00CF4639 /* LogoMakr-5DG6BK.png */,
+				5CF7EFE026712660002FF7C7 /* WebKit.framework */,
+				5CF7EFC92671264B002FF7C7 /* lionMatrix */,
+				5CF7EFC22671264B002FF7C7 /* Frameworks */,
+				5CF7EFC02671264B002FF7C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CF7EFC02671264B002FF7C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CF7EFBF2671264B002FF7C7 /* lionMatrix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CF7EFC22671264B002FF7C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CF7EFC32671264B002FF7C7 /* Cocoa.framework */,
+				5CF7EFC52671264B002FF7C7 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CF7EFC52671264B002FF7C7 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CF7EFC62671264B002FF7C7 /* AppKit.framework */,
+				5CF7EFC72671264B002FF7C7 /* CoreData.framework */,
+				5CF7EFC82671264B002FF7C7 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5CF7EFC92671264B002FF7C7 /* lionMatrix */ = {
+			isa = PBXGroup;
+			children = (
+				5CF7EFD52671264B002FF7C7 /* AppDelegate.h */,
+				5CF7EFD62671264B002FF7C7 /* AppDelegate.m */,
+				5CF7EFD82671264C002FF7C7 /* MainMenu.xib */,
+				5CF7EFCA2671264B002FF7C7 /* Supporting Files */,
+			);
+			path = lionMatrix;
+			sourceTree = "<group>";
+		};
+		5CF7EFCA2671264B002FF7C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CF7EFCB2671264B002FF7C7 /* lionMatrix-Info.plist */,
+				5CF7EFCC2671264B002FF7C7 /* InfoPlist.strings */,
+				5CF7EFCF2671264B002FF7C7 /* main.m */,
+				5CF7EFD12671264B002FF7C7 /* lionMatrix-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CF7EFBE2671264B002FF7C7 /* lionMatrix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CF7EFDD2671264C002FF7C7 /* Build configuration list for PBXNativeTarget "lionMatrix" */;
+			buildPhases = (
+				5CF7EFBB2671264B002FF7C7 /* Sources */,
+				5CF7EFBC2671264B002FF7C7 /* Frameworks */,
+				5CF7EFBD2671264B002FF7C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lionMatrix;
+			productName = lionMatrix;
+			productReference = 5CF7EFBF2671264B002FF7C7 /* lionMatrix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CF7EFB62671264B002FF7C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 5CF7EFB92671264B002FF7C7 /* Build configuration list for PBXProject "lionMatrix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5CF7EFB42671264B002FF7C7;
+			productRefGroup = 5CF7EFC02671264B002FF7C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CF7EFBE2671264B002FF7C7 /* lionMatrix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CF7EFBD2671264B002FF7C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF7EFCE2671264B002FF7C7 /* InfoPlist.strings in Resources */,
+				5CF7EFDA2671264C002FF7C7 /* MainMenu.xib in Resources */,
+				5C2047732671385A00CF4639 /* LogoMakr-5DG6BK.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CF7EFBB2671264B002FF7C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF7EFD02671264B002FF7C7 /* main.m in Sources */,
+				5CF7EFD72671264B002FF7C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5CF7EFCC2671264B002FF7C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CF7EFCD2671264B002FF7C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5CF7EFD82671264C002FF7C7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CF7EFD92671264C002FF7C7 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CF7EFDB2671264C002FF7C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5CF7EFDC2671264C002FF7C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5CF7EFDE2671264C002FF7C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lionMatrix/lionMatrix-Prefix.pch";
+				INFOPLIST_FILE = "lionMatrix/lionMatrix-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5CF7EFDF2671264C002FF7C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lionMatrix/lionMatrix-Prefix.pch";
+				INFOPLIST_FILE = "lionMatrix/lionMatrix-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CF7EFB92671264B002FF7C7 /* Build configuration list for PBXProject "lionMatrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF7EFDB2671264C002FF7C7 /* Debug */,
+				5CF7EFDC2671264C002FF7C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CF7EFDD2671264C002FF7C7 /* Build configuration list for PBXNativeTarget "lionMatrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF7EFDE2671264C002FF7C7 /* Debug */,
+				5CF7EFDF2671264C002FF7C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CF7EFB62671264B002FF7C7 /* Project object */;
+}
